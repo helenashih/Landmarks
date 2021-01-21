@@ -15,6 +15,10 @@
 		C0B0DEE625BA259B00DAE4E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B0DEBB25BA259700DAE4E3 /* ContentView.swift */; };
 		C0B0DEE725BA259B00DAE4E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0B0DEBC25BA259B00DAE4E3 /* Assets.xcassets */; };
 		C0B0DEE825BA259B00DAE4E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0B0DEBC25BA259B00DAE4E3 /* Assets.xcassets */; };
+		C0B0DEFC25BA2AB800DAE4E3 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B0DEFB25BA2AB800DAE4E3 /* CircleImage.swift */; };
+		C0B0DEFD25BA2AB800DAE4E3 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B0DEFB25BA2AB800DAE4E3 /* CircleImage.swift */; };
+		C0B0DF0325BA303100DAE4E3 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B0DF0225BA303100DAE4E3 /* MapView.swift */; };
+		C0B0DF0425BA303100DAE4E3 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B0DF0225BA303100DAE4E3 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,8 @@
 		C0B0DEDC25BA259B00DAE4E3 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0B0DEE025BA259B00DAE4E3 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		C0B0DEE225BA259B00DAE4E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0B0DEFB25BA2AB800DAE4E3 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		C0B0DF0225BA303100DAE4E3 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,8 @@
 				C0B0DEBA25BA259700DAE4E3 /* LandmarksApp.swift */,
 				C0B0DEBB25BA259700DAE4E3 /* ContentView.swift */,
 				C0B0DEBC25BA259B00DAE4E3 /* Assets.xcassets */,
+				C0B0DEFB25BA2AB800DAE4E3 /* CircleImage.swift */,
+				C0B0DF0225BA303100DAE4E3 /* MapView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -309,7 +317,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0B0DEE525BA259B00DAE4E3 /* ContentView.swift in Sources */,
+				C0B0DF0325BA303100DAE4E3 /* MapView.swift in Sources */,
 				C0B0DEE325BA259B00DAE4E3 /* LandmarksApp.swift in Sources */,
+				C0B0DEFC25BA2AB800DAE4E3 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +328,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0B0DEE625BA259B00DAE4E3 /* ContentView.swift in Sources */,
+				C0B0DF0425BA303100DAE4E3 /* MapView.swift in Sources */,
 				C0B0DEE425BA259B00DAE4E3 /* LandmarksApp.swift in Sources */,
+				C0B0DEFD25BA2AB800DAE4E3 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
